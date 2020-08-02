@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 3px 30px;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	list-style: none;
+	background: white;
+}
+
+.nav-left {
+	display: flex;
+}
+
+.nav-left img {
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+.nav-left li {
+	font-weight: 900;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+.nav-center h2 {
+	font-family: 'Playball', cursive;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.nav-right button {
+	background-color: rgb(86, 123, 149);
+	color: white;
+	line-height: 11px;
+	font-weight: 700;
+	padding: 11px 12px 8px 12px;
+	border-radius: 5px;
+	border: 1px solid rgb(86, 123, 149);
+	cursor: pointer;
+	margin: 0;
+}
+
+hr {
+	width: 100%;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	margin: 0 200px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 40px 0;
+}
+
+.main-content h1 {
+	align-self: center;
+	margin: 20px 0;
+	font-size: 35px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.main-image-description {
+	align-self: start;
+	color: grey;
+}
+
+.main-image-description span {
+	color: rgb(177, 177, 177);
+}
+
+.main-content img {
+	width: 100%;
+}
+
+.article-info {
+	width: 60%;
+	align-self: center;
+}
+
+.article-info h4 {
+	margin: 30px 0 0 0;
+	justify-self: center;
+	font-size: 15px;
+}
+
+.article-options {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.article-menu {
+	display: flex;
+	margin: 0;
+}
+
+.article-menu img {
+	width: 20px;
+	height: 20px;
+	padding: 5px 5px;
+	border: 1px solid rgb(233, 233, 233);
+	background: rgb(233, 233, 233);
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.article-menu img:hover {
+	border: 1px solid white;
+	background: rgb(255, 255, 255);
+	transition: ease-in 0.1s;
+}
+
+.date h4 {
+	margin: 0;
+}
+
+.written-content p {
+	margin: 40px 0;
+	font-size: 22px;
+	font-weight: 300;
+}
